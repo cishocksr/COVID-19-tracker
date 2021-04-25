@@ -7,10 +7,10 @@ import {
 } from '@material-ui/core';
 import { useEffect, useState } from 'react';
 import './App.css';
-import InfoBox from './info-box.component';
-import Table from './table.component';
-import Map from './map.component';
-import LineGraph from './line-graph.component';
+import InfoBox from './components/info-box.component';
+import Table from './components/table.component';
+import Map from './components/map.component';
+import LineGraph from './components/line-graph.component';
 import { prettyPrintStat, sortData } from './utils.js';
 
 import 'leaflet/dist/leaflet.css';

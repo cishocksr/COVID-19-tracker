@@ -1,5 +1,5 @@
 import numeral from 'numeral';
-import './table.css';
+import '../styles/table.styles.css';
 
 const Table = ({ countries }) => {
   return (
